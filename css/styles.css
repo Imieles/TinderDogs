@@ -1,0 +1,167 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+
+}
+#title {
+    background-color:#ff4c68 ;
+    color: white;
+    text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Heading*/
+.bigheading{
+    font-size: 3.5rem;
+    line-height: 1.5;  
+
+}
+.container-fluid{
+    padding: 2.5% 15% 7%;
+}
+
+.navbar {
+    padding-bottom: 4.5rem ;
+}
+.navbar-brand{
+    font-size: 3rem;
+    font-weight: bold;  
+}
+
+.nav-item{
+    padding: 0 20px;
+}
+.nav-link{
+    font-size: 1.6rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+.download-btn {
+    margin: 5% 3% 5%;
+}
+
+.phoneimg {
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 23%;
+}
+/* Features seccion*/
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+#features div{
+    padding: 18px;
+}
+
+.feature-title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.icon-features{
+    margin-bottom: 1rem;
+    color: #ef8172;
+    font-size: 4rem;
+}
+
+.icon-features:hover{
+    color:#ff4c68  ;
+    ;
+}
+
+#features p{
+    color:#8f8f8f;
+    font-size: 1rem;
+}
+
+/*Testimonial seccion*/
+
+#testimonials{
+    background-color: #ef8172;
+    color:white;
+
+}
+.testimonial-text{
+    font-size: 3rem;
+    line-height:1.5;
+}
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+.press-img{
+    width: 15%;
+    margin:20px 20px 50px ;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/*Pricing*/
+
+#pricing{
+    padding: 3% 15%;
+}
+.price-text{
+    font-size: 3rem;
+    line-height:1.5;
+
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+
+@media (max-width:1200px) {
+    .phoneimg{
+        position: static;
+        transform: rotate(0);
+        width: 70%;
+        margin-top: 30px;
+    }
+    #title{
+        text-align:center ;
+    }
+}
+
+/*Call to action*/
+
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 8% 15% 6%;
+}
+
+.button-cta {
+    display: inline-block;
+}
+
+
+/*Fotter*/
+
+#footer{
+    padding: 7% 15%;
+    color: #8f8f8f;
+    font-size: 1.2rem;
+}
+#footer p{
+    margin-top: 10px;
+}
+.footer-icon{
+    margin: 20px 10px;
+
+}
